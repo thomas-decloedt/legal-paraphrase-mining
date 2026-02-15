@@ -1,0 +1,39 @@
+[project]
+name = "legal-paraphrase-mining"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "compound-split>=1.0.2",
+    "datasets<3.0",
+    "datasketch>=1.8.0",
+    "einops>=0.8.1",
+    "nltk>=3.9.2",
+    "parascore>=1.0.5",
+    "polars>=1.35.2",
+    "pydantic>=2.12.5",
+    "qdrant-client>=1.16.1",
+    "sentence-transformers>=5.1.2",
+    "spacy>=3.8.11",
+    "unbabel-comet>=2.2.7",
+    "wn>=0.14.0",
+    "word2word>=1.0.0",
+    "model2vec>=0.3.7",
+    "ctranslate2>=4.6.1",
+    "sentencepiece>=0.2.1",
+    "pysbd>=0.3.4",
+    "syntok>=1.4.4",
+    "fastembed>=0.7.3",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.0",
+    "pytest>=9.0.1",
+    "ruff>=0.14.7",
+    "types-tqdm>=4.67.0.20250809",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

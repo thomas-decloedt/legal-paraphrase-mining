@@ -1,0 +1,49 @@
+# English EU Legal Stopwords
+# Based on analysis of Multi_Legal_Pile EU court decisions corpus
+# These are high-frequency procedural/boilerplate words that don't distinguish content
+#
+# Categories:
+# - Procedural: words describing court procedure (acting, orders, dismissed)
+# - Boilerplate: legal formulae (pursuant, whereas, hereby)
+# - Temporal: procedural time references (thereafter, hereinafter)
+# - Connectives: legal discourse markers (furthermore, moreover, accordingly)
+word,category
+acting,procedural
+orders,procedural
+ordered,procedural
+dismissed,procedural
+dismisses,procedural
+brought,procedural
+incurred,procedural
+composed,procedural
+delivered,procedural
+upheld,procedural
+annulled,procedural
+granted,procedural
+rejected,procedural
+alleging,procedural
+contested,procedural
+pursuant,boilerplate
+whereas,boilerplate
+hereby,boilerplate
+herein,boilerplate
+hereto,boilerplate
+thereof,boilerplate
+thereto,boilerplate
+hereinafter,temporal
+thereafter,temporal
+hitherto,temporal
+herewith,boilerplate
+furthermore,connective
+moreover,connective
+accordingly,connective
+consequently,connective
+nevertheless,connective
+notwithstanding,connective
+inasmuch,connective
+insofar,connective
+aforesaid,boilerplate
+abovementioned,boilerplate
+aforementioned,boilerplate
+undersigned,boilerplate
+foregoing,boilerplate

@@ -1,0 +1,4 @@
+- Do not use dict/Dict in function signature type hints, prefer Pydantic models
+- Superfluous comments are prohibited
+- Use strict typing
+- Use type hinting in function signatures both for arguments and output
